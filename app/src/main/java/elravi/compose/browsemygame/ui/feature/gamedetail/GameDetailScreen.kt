@@ -21,7 +21,6 @@ import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.TextUnitType
 import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.constraintlayout.compose.Dimension
-import androidx.lifecycle.compose.ExperimentalLifecycleComposeApi
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
@@ -43,7 +42,6 @@ import elravi.compose.browsemygame.util.orDash
 import elravi.compose.browsemygame.util.showToast
 import org.koin.androidx.compose.koinViewModel
 
-@OptIn(ExperimentalLifecycleComposeApi::class)
 @Composable
 fun GameDetailScreen(
     gameId: Int,

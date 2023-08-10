@@ -24,7 +24,6 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.constraintlayout.compose.Dimension
-import androidx.lifecycle.compose.ExperimentalLifecycleComposeApi
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
 import elravi.compose.browsemygame.R
@@ -35,7 +34,6 @@ import elravi.compose.browsemygame.ui.components.*
 import elravi.compose.browsemygame.ui.theme.*
 import org.koin.androidx.compose.koinViewModel
 
-@OptIn(ExperimentalLifecycleComposeApi::class)
 @Composable
 fun GameSearchScreen(
     navController: NavController,

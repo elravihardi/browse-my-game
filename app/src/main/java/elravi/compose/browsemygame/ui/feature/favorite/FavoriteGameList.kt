@@ -8,7 +8,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
-import androidx.lifecycle.compose.ExperimentalLifecycleComposeApi
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import elravi.compose.browsemygame.R
 import elravi.compose.browsemygame.appTheme
@@ -26,7 +25,6 @@ import elravi.compose.browsemygame.ui.theme.dimen20dp
 import elravi.compose.browsemygame.util.showToast
 import org.koin.androidx.compose.koinViewModel
 
-@OptIn(ExperimentalLifecycleComposeApi::class)
 @Composable
 fun FavoriteGameListSection(
     navigateToDetailScreen: (Game) -> Unit,

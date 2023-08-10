@@ -2,11 +2,9 @@ package elravi.compose.browsemygame.ui.feature.home
 
 import android.content.res.Configuration
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.lifecycle.compose.ExperimentalLifecycleComposeApi
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import elravi.compose.browsemygame.domain.game.model.response.gamelist.Game
 import elravi.compose.browsemygame.ui.components.*
@@ -21,7 +19,6 @@ fun GameListPreview() {
     }
 }
 
-@OptIn(ExperimentalLifecycleComposeApi::class)
 @Composable
 fun GameListSection(
     navigateToDetailScreen: (Game) -> Unit,

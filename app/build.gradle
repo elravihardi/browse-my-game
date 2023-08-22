@@ -10,7 +10,7 @@ localProperties.load(new FileInputStream(rootProject.file("local.properties")))
 
 android {
     namespace 'elravi.compose.browsemygame'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "elravi.compose.browsemygame"
@@ -60,7 +60,7 @@ dependencies {
     implementation 'androidx.activity:activity-compose:1.7.2'
     implementation "androidx.compose.ui:ui:$compose_version"
     implementation "androidx.compose.ui:ui-tooling-preview:$compose_version"
-    implementation 'androidx.compose.material3:material3:1.1.0'
+    implementation 'androidx.compose.material3:material3:1.1.1'
 
     testImplementation 'junit:junit:4.13.2'
     testImplementation 'org.junit.jupiter:junit-jupiter'
@@ -75,7 +75,7 @@ dependencies {
     implementation "androidx.constraintlayout:constraintlayout-compose:1.0.1"
 
     // Compose Nav
-    implementation "androidx.navigation:navigation-compose:2.6.0"
+    implementation "androidx.navigation:navigation-compose:2.7.0"
 
     // Compose lifeycle
     implementation "androidx.lifecycle:lifecycle-runtime-compose:2.6.1"
